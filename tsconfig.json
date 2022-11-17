@@ -1,0 +1,39 @@
+{
+    "include": [
+        "./ts/*.ts",
+    ],
+    "exclude": [],
+    "compilerOptions": {
+        // Language and Environment
+        "target": "es6",
+        "useDefineForClassFields": true,
+        // Modules
+        "module": "es6",
+        "rootDir": "./ts",
+        "moduleResolution": "node",
+        // Emit
+        "outDir": "./js",
+        "removeComments": true,
+        "noEmitOnError": true,
+        // Interop Constraints
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        // Type Checking
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictBindCallApply": true,
+        "strictPropertyInitialization": true,
+        "noImplicitThis": true,
+        "useUnknownInCatchVariables": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "exactOptionalPropertyTypes": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUncheckedIndexedAccess": true,
+        "noImplicitOverride": true,
+        "noPropertyAccessFromIndexSignature": true,
+    },
+}
