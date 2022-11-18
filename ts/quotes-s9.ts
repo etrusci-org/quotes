@@ -1,7 +1,3 @@
-type QuoteItemType = { author: string, text: string } | null
-type QuoteArrayType = QuoteItemType[]
-
-
 export const quotes: QuoteArrayType = [
     { author: `Albert Einstein`, text: `The most beautiful experience we can have is the mysterious. It is the fundamental emotion that stands at the cradle of true art and true science.` },
     { author: `Aldous Huxley`, text: `After silence, that which comes nearest to expressing the inexpressible is music.` },
