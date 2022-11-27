@@ -59,7 +59,6 @@ export const quotes: QuoteArrayType = [
     { author: `Jean Paul Friedrich Richter`, text: `Music is the moonlight in the gloomy night of life.` },
     { author: `Jim Morrison`, text: `This is the strangest life I have ever known.` },
     { author: `John Keats`, text: `There is nothing stable in the world; uproar's your only music.` },
-    { author: `John Lennon`, text: `Music is everybody's business. It's only the publishers who think people own it` },
     { author: `Jonathan Anthony Burkett`, text: `Faith is why I'm here today and faith is why I made it through.` },
     { author: `Joni Mitchell`, text: `You don't know what you got till it's gone.` },
     { author: `Joss Whedon`, text: `All worthy work is open to interpretations the author did not intend. Art isn't your pet - it's your kid. It grows up and talks back to you.` },
