@@ -81,6 +81,7 @@ export const quotes = [
     { author: `Jules Combarieu`, text: `Music is the art of thinking with sounds.` },
     { author: `Kanye West`, text: `...my music isn't just music - its medicine.` },
     { author: `Karl Lagerfeld`, text: `Music gives color to the air of the moment.` },
+    { author: `Ken Thompson`, text: `One of my most productive days was throwing away 1000 lines of code.` },
     { author: `Lady Gaga`, text: `Ignore all hatred and criticism. Live for what you create, and die protecting it.` },
     { author: `Lana Del Rey`, text: `Doing what you love is freedom. Loving what you do is happiness.` },
     { author: `Lao Tzu`, text: `Music in the soul can be heard by the universe.` },
