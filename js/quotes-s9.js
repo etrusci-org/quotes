@@ -2,6 +2,7 @@ export const quotes = [
     { author: `Albert Camus`, text: `Don't walk in front of me... I may not follow. Don't walk behind me... I may not lead. Walk beside me... just be my friend.` },
     { author: `Albert Einstein`, text: `The most beautiful experience we can have is the mysterious. It is the fundamental emotion that stands at the cradle of true art and true science.` },
     { author: `Aldous Huxley`, text: `After silence, that which comes nearest to expressing the inexpressible is music.` },
+    { author: `Alejandro Jodorowsky`, text: `Birds born in a cage think flying is an illness.` },
     { author: `Alex Gaskarth`, text: `Life's greatest tragedy is not that it will someday end, but that most only live to follow directions and sometimes we end up totally lost.` },
     { author: `Alex Gaskarth`, text: `Music is the soundtrack to every good and bad time we will ever have.` },
     { author: `Amit Kalantri`, text: `The job of feets is walking, but their hobby is dancing.` },
