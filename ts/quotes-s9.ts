@@ -101,6 +101,7 @@ export const quotes: QuoteArrayType = [
     { author: `Leonard Bernstein`, text: `This will be our reply to violence: to make music more intensely, more beautifully, more devotedly than ever before.` },
     { author: `Leonardo da Vinci`, text: `The noblest pleasure is the joy of understanding.` },
     { author: `Leopold Stokowski`, text: `A painter paints pictures on canvas. But musicians paint their pictures on silence.` },
+    { author: `Little Simz`, text: `Don't tell me I shouldn't just because you couldn't.` },
     { author: `Louis Armstrong`, text: `If you have to ask what jazz is, you'll never know.` },
     { author: `Mahatma Gandhi`, text: `Be the change that you wish to see in the world.` },
     { author: `Maria Cristina Mena`, text: `The pianokeys are black and white, but they sound like a million colors in your mind.` },
