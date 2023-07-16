@@ -2,6 +2,7 @@
 
 import sys
 import subprocess
+import json
 
 
 
@@ -9,6 +10,7 @@ import subprocess
 jsModuleFile = './js/quotes-s9.js'
 jsScriptFile = './js/quotes-s9-script.js'
 jsonFile = './json/quotes-s9.json'
+peopleFile = './people.txt'
 
 
 
@@ -16,7 +18,6 @@ jsonFile = './json/quotes-s9.json'
 def bake():
     # typescript module -> javascript module
     dump = subprocess.run(['/usr/bin/tsc', '-p', './tsconfig.json'])
-
     if dump.returncode != 0:
         print('failed to compile typescript to javascript')
         sys.exit(1)
@@ -38,6 +39,15 @@ def bake():
         dump = dump.replace('text:', '"text":')
         dump = dump.replace('},\n]', '}\n]')
         jf.write(dump)
+
+    # authors -> txt
+    with open(peopleFile, 'w') as af:
+        dump = json.loads(dump)
+        people = []
+        for v in dump:
+            if not v['author'] in people:
+                people.append(v['author'])
+        af.write('\n'.join(people))
 
 
 
