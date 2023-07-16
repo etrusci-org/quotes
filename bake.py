@@ -8,21 +8,21 @@ import subprocess
 
 jsModuleFile = './js/quotes-s9.js'
 jsScriptFile = './js/quotes-s9-script.js'
-jsonFile     = './json/quotes-s9.json'
+jsonFile = './json/quotes-s9.json'
 
 
 
 
 def bake():
     # typescript module -> javascript module
-    dump = subprocess.run(['tsc', '-p', './tsconfig.json'])
+    dump = subprocess.run(['/usr/bin/tsc', '-p', './tsconfig.json'])
 
     if dump.returncode != 0:
         print('failed to compile typescript to javascript')
         sys.exit(1)
 
     # javascript module -> javascript script
-    with open(jsModuleFile, 'r') as mf, open(jsScriptFile,  'w') as sf:
+    with open(jsModuleFile, 'r') as mf, open(jsScriptFile, 'w') as sf:
         dump = mf.read()
         dump = f'"use strict";\n{dump}'
         dump = dump.replace('export ', '')
