@@ -1,6 +1,6 @@
 # quotes
 
-Words from people.
+Words from [people](./people.txt).
 
 ---
 
