@@ -1,0 +1,5 @@
+# Quotes by Nina LaCour
+
+---
+
+- It was the moment I realized what music can do to people, how it can make you hurt and feel so good all at once.

@@ -1,0 +1,5 @@
+# Quotes by Albert Camus
+
+---
+
+- Don't walk in front of me... I may not follow. Don't walk behind me... I may not lead. Walk beside me... just be my friend.

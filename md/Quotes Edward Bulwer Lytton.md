@@ -1,0 +1,5 @@
+# Quotes by Edward Bulwer Lytton
+
+---
+
+- Music, once admitted to the soul, becomes a sort of spirit, and never dies.
