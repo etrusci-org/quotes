@@ -1,0 +1,5 @@
+# Quotes by E. E. Cummings
+
+---
+
+- To be nobody but yourself in a world which is doing its best day and night to make you like everybody else means to fight the hardest battle which any human being can fight and never stop fighting.

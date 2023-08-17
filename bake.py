@@ -3,15 +3,15 @@
 import sys
 import subprocess
 import json
-
+import urllib.parse
 
 
 
 jsModuleFile = './js/quotes-s9.js'
 jsScriptFile = './js/quotes-s9-script.js'
 jsonFile = './json/quotes-s9.json'
-peopleFile = './people.txt'
-
+authorsFile = './authors.txt'
+mdDir = './md'
 
 
 
@@ -41,14 +41,31 @@ def bake():
         jf.write(dump)
 
     # authors -> txt
-    with open(peopleFile, 'w') as af:
+    with open(authorsFile, 'w') as af:
         dump = json.loads(dump)
-        people = []
+        authors = []
         for v in dump:
-            if not v['author'] in people:
-                people.append(v['author'])
-        af.write('\n'.join(people))
+            if not v['author'] in authors:
+                authors.append(v['author'])
+        af.write('\n'.join(authors))
 
+    # json -> md
+    with open(jsonFile, 'r') as jf:
+        dump = json.loads(jf.read())
+
+        quotes = {}
+        for v in dump:
+            if not v['author'] in quotes.keys():
+                quotes[v['author']] = []
+            quotes[v['author']].append(v['text'])
+
+        for author, quotes in quotes.items():
+            quotesFile = f'{mdDir}/Quotes {author}.md'
+            with open(quotesFile, 'w') as qf:
+                qf.write(f'# Quotes by {author}\n\n')
+                qf.write('---\n\n')
+                for q in quotes:
+                    qf.write(f'- {q}\n')
 
 
 
