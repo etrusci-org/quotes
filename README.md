@@ -18,6 +18,7 @@ Words from [people](./authors.txt).
 ## Update Quotes
 
 1. Create/update/delete quotes in **ts/quotes-*.ts**
-2. Run **bake.py**
+2. `$ cd path/to/quotes-repo/`
+3. `$ python3 bake.py`
 
 ---
