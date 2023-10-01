@@ -170,6 +170,7 @@ const quotes = [
     { author: `Tupac Shakur`, text: `People tend to choke that which they do not understand.` },
     { author: `Tupac Shakur`, text: `Reality is wrong. Dreams are for the real.` },
     { author: `Unknown Author`, text: `Bees don't waste their time explaining to flies why honey is better than shit.` },
+    { author: `Unknown Author`, text: `Saying no to someone is saying yes to yourself.` },
     { author: `Unknown Author`, text: `Whoever brings you the most peace should get the most time.` },
     { author: `Victor Hugo`, text: `Music expresses that which cannot be put into words and that which cannot remain silent.` },
     { author: `W.H. Auden`, text: `The most exciting rhythms seem unexpected and complex, the most beautiful melodies simple and inevitable.` },
