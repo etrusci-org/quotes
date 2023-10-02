@@ -1,0 +1,5 @@
+# Quotes by George Addair
+
+---
+
+- Everything you've ever wanted is on the other side of fear.

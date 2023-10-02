@@ -36,6 +36,7 @@ Denzel Washington
 Dmitri Shostakovich
 Donald Miller
 Dr. Joyce Brothers
+Dr. Seuss
 Drake
 E. E. Cummings
 Eddie Van Halen
@@ -52,6 +53,7 @@ Frank Zappa
 Frederick Delius
 Friedrich Nietzsche
 G-Eazy
+George Addair
 George Bernard Shaw
 George Eliot
 George Gershwin
@@ -115,6 +117,7 @@ Plato
 Prince
 Ransom Riggs
 Rick Riordan
+Rick Rubin
 Rob Sheffield
 Robert Frost
 Robert Schumann
