@@ -31,7 +31,7 @@ def bake():
         print(f'{SOURCE_FILE} > {OUT_FILE_JSON_MIN}')
         json.dump(src, out_f_json_min, ensure_ascii=True)
 
-        # src > quotes.md
+        # src > markdown
         print(f'{SOURCE_FILE} > {OUT_FILE_MARKDOWN}')
         dump = {}
         for v in src:
@@ -44,13 +44,15 @@ def bake():
             for v in quotes:
                 out_f_md.write(f'- {v}\n')
 
-        # src > authors.txt
+        # src > authors
         print(f'{SOURCE_FILE} > {OUT_FILE_AUTHORS}')
         dump = []
         for v in src:
             if not v['author'] in dump:
                 dump.append(v['author'])
         out_f_authors.write('\n'.join(sorted(dump)))
+
+
 
 
 if __name__ == '__main__':
