@@ -128,6 +128,10 @@
         "text": "Love with your heart use your head for everything else."
     },
     {
+        "author": "Carl Jung",
+        "text": "Your vision will become clear only when you look into your own heart. Who looks outside, dreams; who looks inside, awakes."
+    },
+    {
         "author": "Charles Baudelaire",
         "text": "Music fathoms the sky."
     },
@@ -220,6 +224,18 @@
         "text": "If you understand or if you don't. If you believe or if you doubt. There's a universal justice. And the eyes of truth, are always watching you."
     },
     {
+        "author": "Epictetus",
+        "text": "It is impossible for a man to learn what he thinks he already knows."
+    },
+    {
+        "author": "Epictetus",
+        "text": "You become what you give your attention to."
+    },
+    {
+        "author": "Ernest Hemingway",
+        "text": "You must be prepared to work always without applause."
+    },
+    {
         "author": "Erol Ozan",
         "text": "Dancing is creating a sculpture that is visible only for a moment."
     },
@@ -292,8 +308,16 @@
         "text": "Would you destroy something perfect in order to make it beautiful?"
     },
     {
+        "author": "Hafez",
+        "text": "Stay close to anything that makes you glad you are alive."
+    },
+    {
         "author": "Hanif Abdurraqib",
         "text": "Home is where the heart begins, but not where the heart stays."
+    },
+    {
+        "author": "Haruki Murakami",
+        "text": "If you only read the books that everyone else is reading, you can only think what everyone else is thinking."
     },
     {
         "author": "Heinrich Heine",
@@ -322,6 +346,10 @@
     {
         "author": "J.K. Rowling",
         "text": "If you want to know what a man's like, take a good look at how he treats his inferiors, not his equals."
+    },
+    {
+        "author": "James Baldwin",
+        "text": "You can't go by nothing but your own convictions. Because if you don't live the way you believe, sooner or later you will believe the way you live."
     },
     {
         "author": "James Baldwin",
@@ -428,6 +456,10 @@
         "text": "Be the change that you wish to see in the world."
     },
     {
+        "author": "Marcus Aurelius",
+        "text": "The best revenge is not to be like your enemy."
+    },
+    {
         "author": "Maria Cristina Mena",
         "text": "The pianokeys are black and white, but they sound like a million colors in your mind."
     },
@@ -474,6 +506,14 @@
     {
         "author": "Muse",
         "text": "Don't waste your time or time will waste you."
+    },
+    {
+        "author": "Naguib Mahfouz",
+        "text": "Home is not where you were born; home is where all your attempts to escape cease."
+    },
+    {
+        "author": "Niccolo Machiavelli",
+        "text": "Everyone sees what you appear to be, few experience what you really are."
     },
     {
         "author": "Nick Cave",
@@ -710,6 +750,10 @@
     {
         "author": "Victor Hugo",
         "text": "Music expresses that which cannot be put into words and that which cannot remain silent."
+    },
+    {
+        "author": "Viktor Frankl",
+        "text": "What is to give light must endure burning."
     },
     {
         "author": "W.H. Auden",

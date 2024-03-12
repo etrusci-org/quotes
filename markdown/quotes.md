@@ -137,6 +137,11 @@
 - Love with your heart use your head for everything else.
 
 
+## Carl Jung
+
+- Your vision will become clear only when you look into your own heart. Who looks outside, dreams; who looks inside, awakes.
+
+
 ## Charles Baudelaire
 
 - Music fathoms the sky.
@@ -248,6 +253,17 @@
 - If you understand or if you don't. If you believe or if you doubt. There's a universal justice. And the eyes of truth, are always watching you.
 
 
+## Epictetus
+
+- It is impossible for a man to learn what he thinks he already knows.
+- You become what you give your attention to.
+
+
+## Ernest Hemingway
+
+- You must be prepared to work always without applause.
+
+
 ## Erol Ozan
 
 - Dancing is creating a sculpture that is visible only for a moment.
@@ -314,9 +330,19 @@
 - Would you destroy something perfect in order to make it beautiful?
 
 
+## Hafez
+
+- Stay close to anything that makes you glad you are alive.
+
+
 ## Hanif Abdurraqib
 
 - Home is where the heart begins, but not where the heart stays.
+
+
+## Haruki Murakami
+
+- If you only read the books that everyone else is reading, you can only think what everyone else is thinking.
 
 
 ## Heinrich Heine
@@ -356,6 +382,7 @@
 
 ## James Baldwin
 
+- You can't go by nothing but your own convictions. Because if you don't live the way you believe, sooner or later you will believe the way you live.
 - You have to decide who you are and force the world to deal with you, not with its idea of you.
 
 
@@ -480,6 +507,11 @@
 - Be the change that you wish to see in the world.
 
 
+## Marcus Aurelius
+
+- The best revenge is not to be like your enemy.
+
+
 ## Maria Cristina Mena
 
 - The pianokeys are black and white, but they sound like a million colors in your mind.
@@ -538,6 +570,16 @@
 ## Muse
 
 - Don't waste your time or time will waste you.
+
+
+## Naguib Mahfouz
+
+- Home is not where you were born; home is where all your attempts to escape cease.
+
+
+## Niccolo Machiavelli
+
+- Everyone sees what you appear to be, few experience what you really are.
 
 
 ## Nick Cave
@@ -769,6 +811,11 @@
 ## Victor Hugo
 
 - Music expresses that which cannot be put into words and that which cannot remain silent.
+
+
+## Viktor Frankl
+
+- What is to give light must endure burning.
 
 
 ## W.H. Auden
