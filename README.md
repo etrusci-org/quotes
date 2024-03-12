@@ -1,6 +1,6 @@
 # quotes
 
-Words from [people](./authors.txt).
+[Words](./markdown/quotes.md) from [people](./authors.txt).
 
 ---
 
