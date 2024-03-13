@@ -24,6 +24,7 @@ Brian Tracy
 Bryce W. Anderson
 C.G. Drews
 Captain Disillusion
+Carl Jung
 Charles Baudelaire
 Charles Bukowski
 Charles Darwin
@@ -46,6 +47,8 @@ Elbert Hubbard
 Elie Wiesel
 Emma Goldman
 Enigma
+Epictetus
+Ernest Hemingway
 Erol Ozan
 Flannery O'Connor
 Frank Ocean
@@ -58,7 +61,9 @@ George Bernard Shaw
 George Eliot
 George Gershwin
 Gerard Way
+Hafez
 Hanif Abdurraqib
+Haruki Murakami
 Heinrich Heine
 Henri Matisse
 Henry Wadsworth Longfellow
@@ -91,6 +96,7 @@ Leopold Stokowski
 Little Simz
 Louis Armstrong
 Mahatma Gandhi
+Marcus Aurelius
 Maria Cristina Mena
 Maria von Trapp
 Marilyn Manson
@@ -103,6 +109,8 @@ Miles Davis
 Mitch Albom
 Morrissey
 Muse
+Naguib Mahfouz
+Niccolo Machiavelli
 Nick Cave
 Nina LaCour
 Noah Levine
@@ -121,6 +129,7 @@ Rick Rubin
 Rob Sheffield
 Robert Frost
 Robert Schumann
+SPARTALIEN
 Saliva
 Sanober Khan
 Sarah Dessen
@@ -128,7 +137,6 @@ Sarah Williams
 Shannon L. Alder
 Shinichi Suzuki
 Sir James Barrie
-SPARTALIEN
 Staind
 Stella Adler
 Steven Tyler
@@ -146,6 +154,7 @@ Tom Waits
 Tupac Shakur
 Unknown Author
 Victor Hugo
+Viktor Frankl
 W.H. Auden
 Walter Lippmann
 Willem Dafoe

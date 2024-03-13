@@ -1,5 +1,0 @@
-# Quotes by Leopold Stokowski
-
----
-
-- A painter paints pictures on canvas. But musicians paint their pictures on silence.

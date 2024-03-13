@@ -1,71 +1,57 @@
 #!/usr/bin/env python3
 
-import sys
-import subprocess
 import json
-import urllib.parse
 
 
 
-jsModuleFile = './js/quotes-s9.js'
-jsScriptFile = './js/quotes-s9-script.js'
-jsonFile = './json/quotes-s9.json'
-authorsFile = './authors.txt'
-mdDir = './md'
+
+SOURCE_FILE = './_src.json'
+OUT_FILE_JSON = './json/quotes.json'
+OUT_FILE_JSON_MIN = './json/quotes.min.json'
+OUT_FILE_MARKDOWN = './markdown/quotes.md'
+OUT_FILE_AUTHORS = './authors.txt'
+
 
 
 
 def bake():
-    # typescript module -> javascript module
-    dump = subprocess.run(['/usr/bin/tsc', '-p', './tsconfig.json'])
-    if dump.returncode != 0:
-        print('failed to compile typescript to javascript')
-        sys.exit(1)
+    with open(SOURCE_FILE, 'r') as src_f, \
+         open(OUT_FILE_JSON, 'w') as out_f_json, \
+         open(OUT_FILE_JSON_MIN, 'w') as out_f_json_min, \
+         open(OUT_FILE_MARKDOWN, 'w') as out_f_md, \
+         open(OUT_FILE_AUTHORS, 'w') as out_f_authors:
 
-    # javascript module -> javascript script
-    with open(jsModuleFile, 'r') as mf, open(jsScriptFile, 'w') as sf:
-        dump = mf.read()
-        dump = f'"use strict";\n{dump}'
-        dump = dump.replace('export ', '')
-        sf.write(dump)
+        src = json.load(src_f)
 
-    # javascript script -> json
-    with open(jsScriptFile, 'r') as sf, open(jsonFile, 'w') as jf:
-        dump = sf.read()
-        dump = dump.split(' = ')[1]
-        dump = dump.replace('`', '"')
-        dump = dump.replace(';', '')
-        dump = dump.replace('author:', '"author":')
-        dump = dump.replace('text:', '"text":')
-        dump = dump.replace('},\n]', '}\n]')
-        jf.write(dump)
+        # src > json
+        print(f'{SOURCE_FILE} > {OUT_FILE_JSON}')
+        json.dump(src, out_f_json, ensure_ascii=True, indent=4)
 
-    # authors -> txt
-    with open(authorsFile, 'w') as af:
-        dump = json.loads(dump)
-        authors = []
-        for v in dump:
-            if not v['author'] in authors:
-                authors.append(v['author'])
-        af.write('\n'.join(authors))
+        # src > json.min
+        print(f'{SOURCE_FILE} > {OUT_FILE_JSON_MIN}')
+        json.dump(src, out_f_json_min, ensure_ascii=True)
 
-    # json -> md
-    with open(jsonFile, 'r') as jf:
-        dump = json.loads(jf.read())
+        # src > markdown
+        print(f'{SOURCE_FILE} > {OUT_FILE_MARKDOWN}')
+        dump = {}
+        for v in src:
+            if not v['author'] in dump.keys():
+                dump[v['author']] = []
+            dump[v['author']].append(v['text'])
+        out_f_md.write(f'# Quotes\n')
+        for author, quotes in dump.items():
+            out_f_md.write(f'\n\n## {author}\n\n')
+            for v in quotes:
+                out_f_md.write(f'- {v}\n')
 
-        quotes = {}
-        for v in dump:
-            if not v['author'] in quotes.keys():
-                quotes[v['author']] = []
-            quotes[v['author']].append(v['text'])
+        # src > authors
+        print(f'{SOURCE_FILE} > {OUT_FILE_AUTHORS}')
+        dump = []
+        for v in src:
+            if not v['author'] in dump:
+                dump.append(v['author'])
+        out_f_authors.write('\n'.join(sorted(dump)))
 
-        for author, quotes in quotes.items():
-            quotesFile = f'{mdDir}/Quotes {author}.md'
-            with open(quotesFile, 'w') as qf:
-                qf.write(f'# Quotes by {author}\n\n')
-                qf.write('---\n\n')
-                for q in quotes:
-                    qf.write(f'- {q}\n')
 
 
 
