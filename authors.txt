@@ -1,3 +1,4 @@
+3 Doors Down
 Aberjhani
 Adele
 Albert Camus
@@ -8,6 +9,7 @@ Alex Gaskarth
 Amit Kalantri
 Andre Gide
 Ani Difranco
+Anne Frasier
 Anne Sexton
 Anthony Bourdain
 Aristotle
@@ -48,6 +50,7 @@ Elie Wiesel
 Emma Goldman
 Enigma
 Epictetus
+Erin Entrada Kelly
 Ernest Hemingway
 Erol Ozan
 Flannery O'Connor
@@ -56,6 +59,7 @@ Frank Zappa
 Frederick Delius
 Friedrich Nietzsche
 G-Eazy
+Gabriel García Márquez
 George Addair
 George Bernard Shaw
 George Eliot
@@ -74,6 +78,7 @@ J.K. Rowling
 James Baldwin
 Jane Austen
 Jean Paul Friedrich Richter
+Jeff Buckley
 Jeff Zentner
 Jessica Carroll
 Jim Morrison
@@ -121,6 +126,7 @@ Patrick Rothfuss
 Paul Simon
 Pete Billmann
 Pete Wentz
+Philip Glass
 Plato
 Prince
 Ransom Riggs
@@ -136,6 +142,7 @@ Sarah Dessen
 Sarah Williams
 Shannon L. Alder
 Shinichi Suzuki
+Simon Van Booy
 Sir James Barrie
 Staind
 Stella Adler

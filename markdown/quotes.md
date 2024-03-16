@@ -1,6 +1,11 @@
 # Quotes
 
 
+## 3 Doors Down
+
+- I won't look back to regret yesterday, we're not handed tomorrow so I'll live for today
+
+
 ## Aberjhani
 
 - Poetry, like jazz, is one of those dazzling diamonds of creative industry that help human beings make sense out of the comedies and tragedies that contextualize our lives.
@@ -51,6 +56,11 @@
 ## Ani Difranco
 
 - I don't like my language watered down, I don't like my edges rounded off.
+
+
+## Anne Frasier
+
+- Music is art, and art is an integral part of the human experience.
 
 
 ## Anne Sexton
@@ -259,6 +269,11 @@
 - You become what you give your attention to.
 
 
+## Erin Entrada Kelly
+
+- None of it mattered, because there was music.
+
+
 ## Ernest Hemingway
 
 - You must be prepared to work always without applause.
@@ -301,6 +316,11 @@
 ## G-Eazy
 
 - It all depends on what you value. Figure this out on your own, nobody shows you how to.
+
+
+## Gabriel García Márquez
+
+- Four geological eras had to pass so that human beings would be able to outsing the birds and die for love.
 
 
 ## George Addair
@@ -394,6 +414,11 @@
 ## Jean Paul Friedrich Richter
 
 - Music is the moonlight in the gloomy night of life.
+
+
+## Jeff Buckley
+
+- When all of this music sounds like you know what you want to say, then it will have been of all worth, ever. You will be something complete unto yourself, present and unique.
 
 
 ## Jeff Zentner
@@ -638,6 +663,11 @@
 - You can live with me in this house I've built out of writers blocks.
 
 
+## Philip Glass
+
+- The point of writing music and experiencing music isn't to make people comfortable necessarily.
+
+
 ## Plato
 
 - No wealth can ever make a bad man at peace with himself.
@@ -708,6 +738,11 @@
 ## Shinichi Suzuki
 
 - If a musician wants to become a fine artist, he must first become a finer person.
+
+
+## Simon Van Booy
+
+- Music helps us understand where we have come from but, more importantly, what has happened to us.
 
 
 ## Sir James Barrie
