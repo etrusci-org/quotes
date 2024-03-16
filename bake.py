@@ -9,7 +9,8 @@ SOURCE_FILE = './_src.json'
 OUT_FILE_JSON = './json/quotes.json'
 OUT_FILE_JSON_MIN = './json/quotes.min.json'
 OUT_FILE_MARKDOWN = './markdown/quotes.md'
-OUT_FILE_AUTHORS = './authors.txt'
+OUT_FILE_AUTHORS_JSON = './authors.json'
+OUT_FILE_AUTHORS_TXT = './authors.txt'
 
 
 
@@ -19,17 +20,23 @@ def bake():
          open(OUT_FILE_JSON, 'w') as out_f_json, \
          open(OUT_FILE_JSON_MIN, 'w') as out_f_json_min, \
          open(OUT_FILE_MARKDOWN, 'w') as out_f_md, \
-         open(OUT_FILE_AUTHORS, 'w') as out_f_authors:
+         open(OUT_FILE_AUTHORS_TXT, 'w') as out_f_authors_txt, \
+         open(OUT_FILE_AUTHORS_JSON, 'w') as out_f_authors_json:
 
         src = json.load(src_f)
 
+        authors = []
+        for v in src:
+            if not v['author'] in authors:
+                authors.append(v['author'])
+
         # src > json
         print(f'{SOURCE_FILE} > {OUT_FILE_JSON}')
-        json.dump(src, out_f_json, ensure_ascii=True, indent=4)
+        json.dump(src, out_f_json, indent=4)
 
         # src > json.min
         print(f'{SOURCE_FILE} > {OUT_FILE_JSON_MIN}')
-        json.dump(src, out_f_json_min, ensure_ascii=True)
+        json.dump(src, out_f_json_min)
 
         # src > markdown
         print(f'{SOURCE_FILE} > {OUT_FILE_MARKDOWN}')
@@ -44,14 +51,13 @@ def bake():
             for v in quotes:
                 out_f_md.write(f'- {v}\n')
 
-        # src > authors
-        print(f'{SOURCE_FILE} > {OUT_FILE_AUTHORS}')
-        dump = []
-        for v in src:
-            if not v['author'] in dump:
-                dump.append(v['author'])
-        out_f_authors.write('\n'.join(sorted(dump)))
+        # src > authors.txt
+        print(f'{SOURCE_FILE} > {OUT_FILE_AUTHORS_TXT}')
+        out_f_authors_txt.write('\n'.join(sorted(authors)))
 
+        # src > authors.json
+        print(f'{SOURCE_FILE} > {OUT_FILE_AUTHORS_JSON}')
+        json.dump(authors, out_f_authors_json, indent=4)
 
 
 

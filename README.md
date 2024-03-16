@@ -12,6 +12,8 @@
   `https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/json/quotes.min.json`
 - Quotes Markdown:  
   `https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/markdown/quotes.md`
+- Authors JSON:  
+  `https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/authors.json`
 - Authors TXT:  
   `https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/authors.txt`
 
