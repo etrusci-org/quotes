@@ -1,5 +1,5 @@
 const QUOTES_SRC = 'https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/json/quotes.min.json'
-const QUOTES_UPDATE_RATE = 10 * 1000
+const QUOTES_UPDATE_RATE = 30 * 1000
 const TARGET_SELECTOR = '.quotes'
 const TYPING_SPEED = 60
 
