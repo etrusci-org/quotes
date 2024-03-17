@@ -1,6 +1,6 @@
 # quotes
 
-[Words](./markdown/quotes.md) from [people](./authors.txt).
+Curated [words](./markdown/quotes.md) from [people](./authors.txt).
 
 ---
 
@@ -14,8 +14,18 @@
   `https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/markdown/quotes.md`
 - Authors JSON:  
   `https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/authors.json`
+- Authors JSON minified:  
+  `https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/authors.min.json`
 - Authors TXT:  
   `https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/authors.txt`
+
+---
+
+## Random Viewer
+
+Experimental fullscreen random quotes viewer. Work in progress.
+
+<https://etrusci-org.github.io/quotes/viewer.html>
 
 ---
 
