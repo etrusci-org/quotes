@@ -3,25 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>quotes</title>
+    <title>github.com/etrusci-org/quotes</title>
     <style>
-        body {
-            width: 100vw;
-            height: 100vh;
+        html, body {
             display: grid;
-            place-items: center;
-            padding: 0;
+            height: 100%;
             margin: 0;
-            font-family: serif;
-            font-size: 3rem;
-            color: #fff;
-            mix-blend-mode: difference;
+            padding: 0;
+        }
+
+        body {
             background-color: #000;
-            transition: background-color 20s ease-in-out 0s;
         }
 
         .quotes {
-            padding: 3rem;
+            margin: auto;
+            color: #fff;
+            mix-blend-mode: difference;
+            text-align: center;
+        }
+
+        html {
+            font-size: min(max(1rem, 4vw), 30rem);
+        }
+
+        .quotes {
+            padding: min(max(1rem, 4vw), 8rem);
         }
     </style>
 </head>
@@ -31,8 +38,50 @@
     <script src="https://cdn.jsdelivr.net/gh/etrusci-org/olay@2.3.2/app/lib/fetchjson.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/etrusci-org/olay@2.3.2/app/lib/fyshuffle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/etrusci-org/olay@2.3.2/app/lib/randomquotetyper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/gh/etrusci-org/olay@main/app/lib/getrandomcolorhex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/etrusci-org/olay@2.3.2/app/lib/getrandomcolorhex.min.js"></script>
+    <script>
+        // Config
+        const QUOTES_SRC = './json/quotes.min.json'
+        const QUOTES_UPDATE_RATE = 60 * 1000 // ms
+        const TARGET_SELECTOR = '.quotes'
+        const TYPING_SPEED = 60 // ms
 
-    <script src="viewer.js"></script>
+        // Update func
+        async function runRandomQuotesViewer()
+        {
+            // fetch quotes
+            const quotes = await fetchJSON(QUOTES_SRC)
+
+            // nifty bg color changer func
+            const setRandomBG = () => {
+                document.body.style.backgroundColor = `#${getRandomColorHex()}`
+            }
+
+            // set bg transition style
+            document.body.style.transition = `background-color ${(QUOTES_UPDATE_RATE/2)/1000}s ease 0s`
+
+            // change bg to first color
+            setRandomBG()
+
+            // init random quote typer
+            RandomQuoteTyper.targetSelector = TARGET_SELECTOR
+            RandomQuoteTyper.typingSpeed = TYPING_SPEED
+            RandomQuoteTyper.init(quotes)
+
+            // type first quote
+            RandomQuoteTyper.typeQuote()
+
+            // repeat until the world stops turning
+            setInterval(() => {
+                setRandomBG()
+                RandomQuoteTyper.typeQuote()
+            }, QUOTES_UPDATE_RATE)
+        }
+
+        // Reg event listener that will start the viewer
+        window.addEventListener('load', () => {
+            runRandomQuotesViewer()
+        }, false)
+    </script>
 </body>
 </html>
