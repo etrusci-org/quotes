@@ -3,7 +3,7 @@
 
 ## 3 Doors Down
 
-- I won't look back to regret yesterday, we're not handed tomorrow so I'll live for today
+- I won't look back to regret yesterday, we're not handed tomorrow so I'll live for today.
 
 
 ## Aberjhani
@@ -144,7 +144,7 @@
 
 ## Captain Disillusion
 
-- Love with your heart use your head for everything else.
+- Love with your heart. Use your head for everything else.
 
 
 ## Carl Jung
@@ -286,7 +286,7 @@
 
 ## Flannery O'Connor
 
-- Art never responds to the wish to make it democratic it is not for everybody it is only for those who are willing to undergo the effort needed to understand it.
+- Art never responds to the wish to make it democratic. It is not for everybody. It is only for those who are willing to undergo the effort needed to understand it.
 
 
 ## Frank Ocean
@@ -392,7 +392,7 @@
 
 ## Irena Huang
 
-- When words fail music speaks.
+- When words fail, music speaks.
 
 
 ## J.K. Rowling
@@ -443,12 +443,12 @@
 
 ## John Cage
 
-- The world is teeming anything can happen.
+- The world is teeming, anything can happen.
 
 
 ## John Keats
 
-- There is nothing stable in the world uproar's your only music.
+- There is nothing stable in the world, uproar's your only music.
 
 
 ## Jonathan Anthony Burkett
@@ -629,7 +629,7 @@
 
 ## Oscar Wilde
 
-- Be yourself everyone else is already taken.
+- Be yourself, everyone else is already taken.
 
 
 ## Pablo Picasso
