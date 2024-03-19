@@ -473,7 +473,7 @@
 
 ## Kanye West
 
-- ...my music isn't just music - its medicine.
+- ...my music isn't just music - it's medicine.
 
 
 ## Karl Lagerfeld
