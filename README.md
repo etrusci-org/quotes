@@ -25,7 +25,7 @@ Curated [words](./markdown/quotes.md) from [people](./authors.txt). Mostly about
 
 Experimental fullscreen random quotes viewer. Work in progress.
 
-<https://etrusci-org.github.io/quotes/viewer.html>
+<https://etrusci-org.github.io/quotes/viewer/>
 
 ---
 
