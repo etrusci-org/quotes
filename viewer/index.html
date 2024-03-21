@@ -14,12 +14,9 @@
             src: url('./permanent-marker-v16-latin-regular.woff2') format('woff2');
         }
 
-        html, body {
-            height: 100%;
-        }
-
         body {
             display: grid;
+            height: 100vh;
             margin: 0;
             padding: 0;
             font-family: 'Permanent Marker', sans-serif;
@@ -66,31 +63,10 @@
 
 
     <script type="module">
-        const _shuffle_array = (arr) =>
-        {
-            const copy = [...arr]
-
-            for (let i = copy.length - 1; i > 0; i--) {
-                const y = Math.floor(Math.random() * i)
-                const z = copy[i]
-                copy[i] = copy[y]
-                copy[y] = z
-            }
-
-            return copy
-        }
-
-
-        const _set_bg_color = () =>
-        {
-            document.body.style.backgroundColor = `rgb(${Math.floor(Math.random() * 256)} ${Math.floor(Math.random() * 256)} ${Math.floor(Math.random() * 256)})`
-        }
-
-
         const Viewer = {
             src: '../json/quotes.min.json',
             update_rate: 42,
-            typing_speed: 85,
+            typing_speed: 80,
             author_separator: '— ',
             target_text: document.querySelector('.quote .text'),
             target_author: document.querySelector('.quote .author'),
@@ -101,6 +77,20 @@
 
             async init()
             {
+                console.log('quotes/viewer | https://github.com/etrusci-org/quotes')
+
+                const request_params = new URL(document.location.href).searchParams
+
+                const config = {
+                    src: request_params.get('src'),
+                    update_rate: request_params.get('update_rate'),
+                    typing_speed: request_params.get('typing_speed'),
+                }
+
+                if (config.src) Viewer.src = config.src
+                if (config.typing_speed) Viewer.typing_speed = config.typing_speed
+                if (config.update_rate) Viewer.update_rate = config.update_rate
+
                 this.quotes = await fetch(this.src, { cache: 'no-store' }).then((response) => response.json())
 
                 document.body.style.transitionDuration = `${this.update_rate}s`
@@ -117,9 +107,7 @@
             {
                 this.stop_typing()
 
-                if (this.queue.length == 0) {
-                    this.queue = [..._shuffle_array(this.quotes)]
-                }
+                this.refresh_queue()
 
                 document.title = `random quote ${(this.quotes.length - this.queue.length) + 1} / ${this.quotes.length}`
 
@@ -130,7 +118,7 @@
                 this.target_text.textContent = ''
                 this.target_author.textContent = ''
 
-                _set_bg_color()
+                this.set_bg_color()
 
                 this.typer_id = setInterval(() => {
                     if (quote_text.length > 0) {
@@ -149,24 +137,33 @@
                 clearInterval(this.typer_id)
                 this.typer_id = null
             },
+
+
+            refresh_queue(arr)
+            {
+                if (this.queue.length > 0) return
+
+                const copy = [...this.quotes]
+
+                for (let i = copy.length - 1; i > 0; i--) {
+                    const y = Math.floor(Math.random() * i)
+                    const z = copy[i]
+                    copy[i] = copy[y]
+                    copy[y] = z
+                }
+
+                this.queue = [...copy]
+            },
+
+
+            set_bg_color()
+            {
+                document.body.style.backgroundColor = `rgb(${Math.floor(Math.random() * 256)} ${Math.floor(Math.random() * 256)} ${Math.floor(Math.random() * 256)})`
+            },
         }
 
 
         window.addEventListener('load', () => {
-            console.log('quotes viewer | https://github.com/etrusci-org/quotes')
-
-            const request_params = new URL(document.location.href).searchParams
-
-            const config = {
-                src: request_params.get('src'),
-                update_rate: request_params.get('update_rate'),
-                typing_speed: request_params.get('typing_speed'),
-            }
-
-            if (config.src) Viewer.src = config.src
-            if (config.typing_speed) Viewer.typing_speed = config.typing_speed
-            if (config.update_rate) Viewer.update_rate = config.update_rate
-
             Viewer.init()
         }, false)
     </script>
