@@ -19,21 +19,23 @@ Curated [words](./markdown/quotes.md) from [people](./authors.txt). Mostly about
 
 ## Viewer
 
-Fullscreen random quotes viewer. Work in progress.
+Fullscreen random quotes viewer for your big screens.
 
-Base URL: <https://etrusci-org.github.io/quotes/viewer/>
+Base URL: <https://etrusci.org/tool/quotes>
 
 You can override some settings with URL request parameters:
 
 | Parameter | Default | Description |
-|----------------|---------------------------|------------------------------------------------------------|
-| `update_rate`  | `42`                      | seconds, interval between loading quotes                   |
-| `typing_speed` | `80`                      | milliseconds, speed of the typewriter effect, 1000 ms = 1s |
-| `src`          | `../json/quotes.min.json` | path to your custom quotes file                            |
+|----------------|---------------------------|--------------------------------------------------------------|
+| `update_rate`  | `60`                      | Interval between loading quotes in seconds                   |
+| `typing_speed` | `80`                      | Speed of the typewriter effect in milliseconds, 1000 ms = 1s |
+| `src`          | `../json/quotes.min.json` | Path or URL to your custom quotes file                       |
 
-Example:
+Keep [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) in mind when using a remote URL for `src`. E.g. the CDN must support it.
 
-`https://etrusci-org.github.io/quotes/viewer/?update_rate=10&typing_speed=20&src=https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/json/quotes.min.json`
+Example with all available overrides:
+
+`https://etrusci.org/tool/quotes?update_rate=10&typing_speed=20&src=https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/json/quotes.min.json`
 
 ---
 
