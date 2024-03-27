@@ -73,6 +73,11 @@
 - Maybe that's enlightenment enough: to know that there is no final resting place of the mind no moment of smug clarity. Perhaps wisdom... is realizing how small I am, and unwise, and how far I have yet to go.
 
 
+## Apsixaristw
+
+- Great beauty can be found in harmonious contrast variations, and brief uses of extremes.
+
+
 ## Aristotle
 
 - The aim of art is to represent not the outward appearance of things, but their inward significance.
@@ -125,6 +130,11 @@
 ## Bono
 
 - Music can change the world because it can change people.
+
+
+## Brenda Peterson
+
+- If we can write or sing or create in some way, even when we are dealing with difficulties or pain, then it becomes something bigger than ourselves - and often beautiful.
 
 
 ## Brian Tracy
@@ -241,6 +251,11 @@
 ## Edward Bulwer Lytton
 
 - Music, once admitted to the soul, becomes a sort of spirit, and never dies.
+
+
+## Elaine Welteroth
+
+- When the music changes, so must your dance. It was the most beautifully worded truth, a profound lesson reminding me to trust my instincts, to let life guide me, and to never stay anywhere doing the same thing longer than I was supposed to.
 
 
 ## Elbert Hubbard
@@ -454,6 +469,7 @@
 ## Jonathan Anthony Burkett
 
 - Faith is why I'm here today and faith is why I made it through.
+- I live to inspire, not start the fire.
 
 
 ## Joni Mitchell
@@ -710,6 +726,11 @@
 - When you play, never mind who listens to you.
 
 
+## Ryka Aoki
+
+- When you rush, all you are doing is practicing your mistakes at a faster pace.
+
+
 ## Saliva
 
 - Am I the reason you breathe? Or am I the reason you cry?
@@ -728,6 +749,11 @@
 ## Sarah Williams
 
 - Though my soul may set in darkness, it will rise in perfect light I have loved the stars too fondly to be fearful of the night.
+
+
+## Seldon Edwards
+
+- He said that the principal function of music was to organize the details into harmonies that were intended to make us forget that there was randomness all around us. The same, he said, could be said for great books.
 
 
 ## Shannon L. Alder
@@ -793,6 +819,11 @@
 ## The Rolling Stones
 
 - Lose your dream, you lose your mind.
+
+
+## The RZA
+
+- It's harder to make the glass than break the glass.
 
 
 ## Thomas Carlyle

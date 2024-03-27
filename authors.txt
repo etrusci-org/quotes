@@ -12,6 +12,7 @@ Ani Difranco
 Anne Frasier
 Anne Sexton
 Anthony Bourdain
+Apsixaristw
 Aristotle
 Arnold Bennett
 Arnold Schoenberg
@@ -22,6 +23,7 @@ Bill Hicks
 Bob Dylan
 Bob Marley
 Bono
+Brenda Peterson
 Brian Tracy
 Bryce W. Anderson
 C.G. Drews
@@ -45,6 +47,7 @@ E. E. Cummings
 Eddie Van Halen
 Edith Sitwell
 Edward Bulwer Lytton
+Elaine Welteroth
 Elbert Hubbard
 Elie Wiesel
 Emma Goldman
@@ -135,11 +138,13 @@ Rick Rubin
 Rob Sheffield
 Robert Frost
 Robert Schumann
+Ryka Aoki
 SPARTALIEN
 Saliva
 Sanober Khan
 Sarah Dessen
 Sarah Williams
+Seldon Edwards
 Shannon L. Alder
 Shinichi Suzuki
 Simon Van Booy
@@ -151,6 +156,7 @@ Sydney Smith
 T.S. Eliot
 Taylor Jenkins Reid
 The Narrator of The Stanley Parable
+The RZA
 The Rolling Stones
 Thomas Carlyle
 Thomas Fuller
