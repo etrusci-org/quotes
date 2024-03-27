@@ -10,7 +10,7 @@ Curated [words](./markdown/quotes.md) from [people](./authors.txt). Mostly about
 |-----------------------|------------------------------------------------|-------------------------------------------------------------|
 | Quotes JSON           | [json/quotes.json](./json/quotes.json)         | `https://etrusci-org.github.io/quotes/json/quotes.json`     |
 | Quotes JSON minified  | [json/quotes.min.json](./json/quotes.min.json) | `https://etrusci-org.github.io/quotes/json/quotes.min.json` |
-| Markdown              | [markdown/quotes.md](./markdown/quotes.md)     | `https://etrusci-org.github.io/quotes/markdown/quotes.md`   |
+| Quotes Markdown       | [markdown/quotes.md](./markdown/quotes.md)     | `https://etrusci-org.github.io/quotes/markdown/quotes.md`   |
 | Authors JSON          | [authors.json](./authors.json)                 | `https://etrusci-org.github.io/quotes/authors.json`         |
 | Authors JSON minified | [authors.min.json](./authors.min.json)         | `https://etrusci-org.github.io/quotes/authors.min.json`     |
 | Authors Plain Text    | [authors.txt](./authors.txt)                   | `https://etrusci-org.github.io/quotes/authors.txt`          |
