@@ -1,22 +1,24 @@
 #!/usr/bin/env python3
 
 import json
+import pathlib
 
 
+OUT_DIR = pathlib.Path(__file__).parent.resolve()
+
+SRC_FILE = OUT_DIR / 'source.json'
+
+OUT_FILE_JSON = OUT_DIR / 'json' / 'quotes.json'
+OUT_FILE_JSON_MIN = OUT_DIR / 'json' / 'quotes.min.json'
+
+OUT_FILE_MD = OUT_DIR / 'markdown' / 'quotes.md'
+
+OUT_FILE_AUTHORS_JSON = OUT_DIR / 'authors.json'
+OUT_FILE_AUTHORS_JSON_MIN = OUT_DIR / 'authors.min.json'
+OUT_FILE_AUTHORS_TXT = OUT_DIR / 'authors.txt'
 
 
-SRC_FILE = './_src.json'
-
-OUT_FILE_JSON = './json/quotes.json'
-OUT_FILE_JSON_MIN = './json/quotes.min.json'
-
-OUT_FILE_MD = './markdown/quotes.md'
-
-OUT_FILE_AUTHORS_JSON = './authors.json'
-OUT_FILE_AUTHORS_JSON_MIN = './authors.min.json'
-OUT_FILE_AUTHORS_TXT = './authors.txt'
-
-
+# -----------------------------------------------------------------------------
 
 
 QUOTES = []
@@ -30,6 +32,7 @@ for v in QUOTES:
         AUTHORS.append(v['author'])
 
 
+# -----------------------------------------------------------------------------
 
 
 def main():
@@ -65,6 +68,7 @@ def bake_authors():
         json.dump(AUTHORS, f3)
 
 
+# -----------------------------------------------------------------------------
 
 
 if __name__ == '__main__':

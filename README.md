@@ -4,16 +4,16 @@ Curated [words](./markdown/quotes.md) from [people](./authors.txt). Mostly about
 
 ---
 
-## CDN
+## Files
 
-| File                  | URL                                                                        |
-|-----------------------|----------------------------------------------------------------------------|
-| Quotes JSON           | `https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/json/quotes.json`     |
-| Quotes JSON minified  | `https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/json/quotes.min.json` |
-| Quotes Markdown       | `https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/markdown/quotes.md`   |
-| Authors JSON          | `https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/authors.json`         |
-| Authors JSON minified | `https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/authors.min.json`     |
-| Authors TXT           | `https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/authors.txt`          |
+|Type                   | File                                           | URL                                                         |
+|-----------------------|------------------------------------------------|-------------------------------------------------------------|
+| Quotes JSON           | [json/quotes.json](./json/quotes.json)         | `https://etrusci-org.github.io/quotes/json/quotes.json`     |
+| Quotes JSON minified  | [json/quotes.min.json](./json/quotes.min.json) | `https://etrusci-org.github.io/quotes/json/quotes.min.json` |
+| Markdown              | [markdown/quotes.md](./markdown/quotes.md)     | `https://etrusci-org.github.io/quotes/markdown/quotes.md`   |
+| Authors JSON          | [authors.json](./authors.json)                 | `https://etrusci-org.github.io/quotes/authors.json`         |
+| Authors JSON minified | [authors.min.json](./authors.min.json)         | `https://etrusci-org.github.io/quotes/authors.min.json`     |
+| Authors Plain Text    | [authors.txt](./authors.txt)                   | `https://etrusci-org.github.io/quotes/authors.txt`          |
 
 ---
 
@@ -25,7 +25,7 @@ Base URL: <https://etrusci.org/tool/quotes>
 
 You can override some settings with URL request parameters:
 
-| Parameter | Default | Description |
+| Parameter      | Default                   | Description                                                  |
 |----------------|---------------------------|--------------------------------------------------------------|
 | `update_rate`  | `60`                      | Interval between loading quotes in seconds                   |
 | `typing_speed` | `80`                      | Speed of the typewriter effect in milliseconds, 1000 ms = 1s |
@@ -33,9 +33,12 @@ You can override some settings with URL request parameters:
 
 Keep [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) in mind when using a remote URL for `src`. E.g. the CDN must support it.
 
-Example with all available overrides:
+Examples:
 
-`https://etrusci.org/tool/quotes?update_rate=10&typing_speed=20&src=https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/json/quotes.min.json`
+- `https://etrusci.org/tool/quotes?update_rate=10`
+- `https://etrusci.org/tool/quotes?typing_speed=20`
+- `https://etrusci.org/tool/quotes?src=https://etrusci-org.github.io/quotes/json/quotes.min.json`
+- `https://etrusci.org/tool/quotes?update_rate=10&typing_speed=20&src=https://etrusci-org.github.io/quotes/json/quotes.min.json`
 
 ---
 
@@ -43,5 +46,5 @@ Example with all available overrides:
 
 In case you clone this repo and want to maintain your own quotes:
 
-1. Edit **[_src.json](./_src.json)**
+1. Edit [_src.json](./_src.json)
 2. `$ python3 bake.py`
