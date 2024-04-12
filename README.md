@@ -46,5 +46,5 @@ Examples:
 
 In case you clone this repo and want to maintain your own quotes:
 
-1. Edit [_src.json](./_src.json)
+1. Edit [source.json](./source.json)
 2. `$ python3 bake.py`
