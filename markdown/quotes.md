@@ -18,6 +18,7 @@
 
 ## Albert Camus
 
+- Do not be afraid of spending quality time by yourself. That doesn't make you antisocial or cause you to reject the rest of the world. But you need to breathe. And you need to be.
 - Don't walk in front of me... I may not follow. Don't walk behind me... I may not lead. Walk beside me... just be my friend.
 
 
