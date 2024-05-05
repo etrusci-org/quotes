@@ -13,9 +13,9 @@ OUT_FILE_JSON_MIN = OUT_DIR / 'json' / 'quotes.min.json'
 
 OUT_FILE_MD = OUT_DIR / 'markdown' / 'quotes.md'
 
-OUT_FILE_AUTHORS_JSON = OUT_DIR / 'authors.json'
-OUT_FILE_AUTHORS_JSON_MIN = OUT_DIR / 'authors.min.json'
-OUT_FILE_AUTHORS_TXT = OUT_DIR / 'authors.txt'
+OUT_FILE_AUTHORS_JSON = OUT_DIR / 'author' / 'authors.json'
+OUT_FILE_AUTHORS_JSON_MIN = OUT_DIR / 'author' / 'authors.min.json'
+OUT_FILE_AUTHORS_TXT = OUT_DIR / 'author' / 'authors.txt'
 
 
 # -----------------------------------------------------------------------------
