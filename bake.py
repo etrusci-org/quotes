@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
+import datetime
 import json
 import pathlib
+import time
 
 
 OUT_DIR = pathlib.Path(__file__).parent.resolve()
@@ -13,10 +15,16 @@ OUT_FILE_JSON_MIN = OUT_DIR / 'json' / 'quotes.min.json'
 
 OUT_FILE_MD = OUT_DIR / 'markdown' / 'quotes.md'
 
-OUT_FILE_AUTHORS_JSON = OUT_DIR / 'authors.json'
-OUT_FILE_AUTHORS_JSON_MIN = OUT_DIR / 'authors.min.json'
-OUT_FILE_AUTHORS_TXT = OUT_DIR / 'authors.txt'
+OUT_FILE_AUTHORS_JSON = OUT_DIR / 'author' / 'authors.json'
+OUT_FILE_AUTHORS_JSON_MIN = OUT_DIR / 'author' / 'authors.min.json'
+OUT_FILE_AUTHORS_TXT = OUT_DIR / 'author' / 'authors.txt'
 
+OUT_FILE_STREAMERBOT = OUT_DIR / 'streamerbot' / 'quotes.dat'
+SB_USER_ID = '1076439190'
+SB_USER_NAME = 'g6_b2'
+SB_PLATFORM_NAME = 'twitch'
+SB_GAME_ID = '26936'
+SB_GAME_NAME = 'Music'
 
 # -----------------------------------------------------------------------------
 
@@ -39,6 +47,7 @@ def main():
     bake_json()
     bake_markdown()
     bake_authors()
+    bake_streamerbot()
 
 
 def bake_json():
@@ -66,6 +75,29 @@ def bake_authors():
         f1.write('\n'.join(sorted(AUTHORS)))
         json.dump(AUTHORS, f2, indent=4)
         json.dump(AUTHORS, f3)
+
+
+def bake_streamerbot():
+    with open(OUT_FILE_STREAMERBOT, 'w') as f:
+        dump = {
+            'version': 3,
+            't': '',
+            'quotes': [],
+        }
+        for id, quote in enumerate(QUOTES, start=1):
+            timestamp = datetime.datetime.now().isoformat()
+            dump['quotes'].append({
+                'timestamp': timestamp,
+                'id': id,
+                'userId': SB_USER_ID,
+                'user': SB_USER_NAME,
+                'platform': SB_PLATFORM_NAME,
+                'gameId': SB_GAME_ID,
+                'gameName': SB_GAME_NAME,
+                'quote': f"\"{quote['text']}\" ― {quote['author']}"
+            })
+        dump['t'] = timestamp
+        json.dump(dump, f, indent=4)
 
 
 # -----------------------------------------------------------------------------

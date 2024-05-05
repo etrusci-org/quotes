@@ -2,20 +2,23 @@
 
 Curated [words](./markdown/quotes.md) from [people](./authors.txt). Mostly about art and life.
 
----
+
+
 
 ## Files
 
-|Type                   | File                                           | URL                                                         |
-|-----------------------|------------------------------------------------|-------------------------------------------------------------|
-| Quotes JSON           | [json/quotes.json](./json/quotes.json)         | `https://etrusci-org.github.io/quotes/json/quotes.json`     |
-| Quotes JSON minified  | [json/quotes.min.json](./json/quotes.min.json) | `https://etrusci-org.github.io/quotes/json/quotes.min.json` |
-| Quotes Markdown       | [markdown/quotes.md](./markdown/quotes.md)     | `https://etrusci-org.github.io/quotes/markdown/quotes.md`   |
-| Authors JSON          | [authors.json](./authors.json)                 | `https://etrusci-org.github.io/quotes/authors.json`         |
-| Authors JSON minified | [authors.min.json](./authors.min.json)         | `https://etrusci-org.github.io/quotes/authors.min.json`     |
-| Authors Plain Text    | [authors.txt](./authors.txt)                   | `https://etrusci-org.github.io/quotes/authors.txt`          |
+|Type                   | File                                                 | URL                                                            |
+|-----------------------|------------------------------------------------------|----------------------------------------------------------------|
+| Quotes JSON           | [json/quotes.json](./json/quotes.json)               | `https://etrusci-org.github.io/quotes/json/quotes.json`        |
+| Quotes JSON minified  | [json/quotes.min.json](./json/quotes.min.json)       | `https://etrusci-org.github.io/quotes/json/quotes.min.json`    |
+| Quotes Markdown       | [markdown/quotes.md](./markdown/quotes.md)           | `https://etrusci-org.github.io/quotes/markdown/quotes.md`      |
+| Authors JSON          | [author/authors.json](./author/authors.json)         | `https://etrusci-org.github.io/quotes/author/authors.json`     |
+| Authors JSON minified | [author/authors.min.json](./author/authors.min.json) | `https://etrusci-org.github.io/quotes/author/authors.min.json` |
+| Authors Plain Text    | [author/authors.txt](./author/authors.txt)           | `https://etrusci-org.github.io/quotes/author/authors.txt`      |
+| Streamer.bot DAT      | [streamerbot/quotes.dat](./streamerbot/quotes.dat)   | `https://etrusci-org.github.io/quotes/streamerbot/quotes.dat`  |
 
----
+
+
 
 ## Viewer
 
@@ -40,7 +43,8 @@ Examples:
 - `https://etrusci.org/tool/quotes?src=https://etrusci-org.github.io/quotes/json/quotes.min.json`
 - `https://etrusci.org/tool/quotes?update_rate=10&typing_speed=20&src=https://etrusci-org.github.io/quotes/json/quotes.min.json`
 
----
+
+
 
 ## Maintain Quotes
 
@@ -48,3 +52,10 @@ In case you clone this repo and want to maintain your own quotes:
 
 1. Edit [source.json](./source.json)
 2. `$ python3 bake.py`
+
+
+
+
+## License
+
+[The Unlicense](./LICENSE.md)
