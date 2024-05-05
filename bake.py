@@ -3,7 +3,6 @@
 import datetime
 import json
 import pathlib
-import time
 
 
 OUT_DIR = pathlib.Path(__file__).parent.resolve()
@@ -25,6 +24,7 @@ SB_USER_NAME = 'g6_b2'
 SB_PLATFORM_NAME = 'twitch'
 SB_GAME_ID = '26936'
 SB_GAME_NAME = 'Music'
+
 
 # -----------------------------------------------------------------------------
 
