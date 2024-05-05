@@ -1,6 +1,6 @@
 # quotes
 
-Curated [words](./markdown/quotes.md) from [people](./authors.txt). Mostly about art and life.
+Curated [words](./markdown/quotes.md) from [people](./author/authors.txt). Mostly about art and life.
 
 
 
