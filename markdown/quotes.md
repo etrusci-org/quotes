@@ -749,7 +749,7 @@
 
 ## Sarah Williams
 
-- Though my soul may set in darkness, it will rise in perfect light I have loved the stars too fondly to be fearful of the night.
+- Though my soul may set in darkness, it will rise in perfect light. I have loved the stars too fondly to be fearful of the night.
 
 
 ## Seldon Edwards
