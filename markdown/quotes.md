@@ -1,6 +1,11 @@
 # Quotes
 
 
+## @damienxpat on twitter
+
+- Capitalism has us feeling like everything we do in our free time is inherently worthless because it's not tied to productivity.
+
+
 ## 3 Doors Down
 
 - I won't look back to regret yesterday, we're not handed tomorrow so I'll live for today.
@@ -72,6 +77,11 @@
 ## Anthony Bourdain
 
 - Maybe that's enlightenment enough: to know that there is no final resting place of the mind no moment of smug clarity. Perhaps wisdom... is realizing how small I am, and unwise, and how far I have yet to go.
+
+
+## Anton Checkhov
+
+- Only during hard times do people come to understand how difficult it is to be master of their feelings and thoughts.
 
 
 ## Apsixaristw
@@ -524,6 +534,11 @@
 - This will be our reply to violence: to make music more intensely, more beautifully, more devotedly than ever before.
 
 
+## Leonard Cohen
+
+- If you don't become the ocean, you'll be seasick every day.
+
+
 ## Leonardo da Vinci
 
 - The noblest pleasure is the joy of understanding.
@@ -727,6 +742,11 @@
 - When you play, never mind who listens to you.
 
 
+## Rumi
+
+- If everything around seems dark, look again, you may be the light.
+
+
 ## Ryka Aoki
 
 - When you rush, all you are doing is practicing your mistakes at a faster pace.
@@ -775,6 +795,11 @@
 ## Sir James Barrie
 
 - If you cannot teach me to fly, teach me to sing.
+
+
+## Sonia Sotomayor
+
+- Although wisdom is built on experiences, the mere accumulation of years guarantees nothing.
 
 
 ## SPARTALIEN
