@@ -13,10 +13,10 @@ Curated [words](./markdown/quotes.md) from [people](./author/authors.txt). Mostl
 | Quotes JSON minified  | [json/quotes.min.json](./json/quotes.min.json)       | `https://etrusci-org.github.io/quotes/json/quotes.min.json`    |
 | Quotes Markdown       | [markdown/quotes.md](./markdown/quotes.md)           | `https://etrusci-org.github.io/quotes/markdown/quotes.md`      |
 | Quotes Text           | [text/quotes.txt](./text/quotes.txt)                 | `https://etrusci-org.github.io/quotes/text/quotes.txt`         |
-<!-- | Quotes Streamer.bot   | [streamerbot/quotes.dat](./streamerbot/quotes.dat)   | `https://etrusci-org.github.io/quotes/streamerbot/quotes.dat`  | -->
 | Authors JSON          | [author/authors.json](./author/authors.json)         | `https://etrusci-org.github.io/quotes/author/authors.json`     |
 | Authors JSON minified | [author/authors.min.json](./author/authors.min.json) | `https://etrusci-org.github.io/quotes/author/authors.min.json` |
 | Authors Plain Text    | [author/authors.txt](./author/authors.txt)           | `https://etrusci-org.github.io/quotes/author/authors.txt`      |
+<!-- | Quotes Streamer.bot   | [streamerbot/quotes.dat](./streamerbot/quotes.dat)   | `https://etrusci-org.github.io/quotes/streamerbot/quotes.dat`  | -->
 
 
 
