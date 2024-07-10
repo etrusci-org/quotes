@@ -209,6 +209,11 @@
 - Music produces a kind of pleasure which human nature cannot do without.
 
 
+## Conway Twitty
+
+- A good country song takes a page out of someone's life, and puts it into music.
+
+
 ## Daniel Keyes
 
 - Thank God for books and music and things I can think about.
@@ -444,6 +449,7 @@
 
 ## Jeff Buckley
 
+- I was captured by music at a really early age. I was really captured by it. Everything about it. It was my mother... It was my father... It was my play thing. It was my toy. It was the best thing in my life.
 - When all of this music sounds like you know what you want to say, then it will have been of all worth, ever. You will be something complete unto yourself, present and unique.
 
 
@@ -614,6 +620,11 @@
 - It's not the note you play that's the wrong note - it's the note you play afterwards that makes it right or wrong.
 
 
+## Mimi Novic
+
+- Laughter with those that understand us is music for the soul. A hug at the right moment and a kind shoulder to lean on, is the sprinkle of magic that keeps us walking towards hope.
+
+
 ## Mitch Albom
 
 - That is often why you come to music, isn't it? To feel that you are not alone?
@@ -780,6 +791,7 @@
 ## Shannon L. Alder
 
 - Music is feelings in search of words.
+- Music is the beat of a drum that keeps time with our emotions.
 
 
 ## Shinichi Suzuki
