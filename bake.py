@@ -14,7 +14,7 @@ OUT_FILE_JSON_MIN = OUT_DIR / 'json' / 'quotes.min.json'
 
 OUT_FILE_MD = OUT_DIR / 'markdown' / 'quotes.md'
 
-OUT_FILE_STREAMERBOT = OUT_DIR / 'streamerbot' / 'quotes.dat'
+# OUT_FILE_STREAMERBOT = OUT_DIR / 'streamerbot' / 'quotes.dat'
 
 OUT_FILE_TEXT = OUT_DIR / 'text' / 'quotes.txt'
 
@@ -24,11 +24,11 @@ OUT_FILE_AUTHORS_TXT = OUT_DIR / 'author' / 'authors.txt'
 
 TEXT_QUOTE_FORMAT = '"{text}" ― {author}'
 
-STREAMERBOT_USER_ID = '1076439190'
-STREAMERBOT_USER_NAME = 'g6_b2'
-STREAMERBOT_PLATFORM_NAME = 'twitch'
-STREAMERBOT_GAME_ID = '26936'
-STREAMERBOT_GAME_NAME = 'Music'
+# STREAMERBOT_USER_ID = '1076439190'
+# STREAMERBOT_USER_NAME = 'g6_b2'
+# STREAMERBOT_PLATFORM_NAME = 'twitch'
+# STREAMERBOT_GAME_ID = '26936'
+# STREAMERBOT_GAME_NAME = 'Music'
 
 
 # -----------------------------------------------------------------------------
@@ -52,7 +52,7 @@ def main():
     bake_json()
     bake_markdown()
     bake_authors()
-    bake_streamerbot()
+    # bake_streamerbot()
     bake_text()
 
 
@@ -83,27 +83,27 @@ def bake_authors():
         json.dump(AUTHORS, f3)
 
 
-def bake_streamerbot():
-    with open(OUT_FILE_STREAMERBOT, 'w') as f:
-        dump = {
-            'version': 3,
-            't': '',
-            'quotes': [],
-        }
-        for id, quote in enumerate(QUOTES, start=1):
-            timestamp = datetime.datetime.now().isoformat()
-            dump['quotes'].append({
-                'timestamp': timestamp,
-                'id': id,
-                'userId': STREAMERBOT_USER_ID,
-                'user': STREAMERBOT_USER_NAME,
-                'platform': STREAMERBOT_PLATFORM_NAME,
-                'gameId': STREAMERBOT_GAME_ID,
-                'gameName': STREAMERBOT_GAME_NAME,
-                'quote': TEXT_QUOTE_FORMAT.format(**quote),
-            })
-        dump['t'] = timestamp
-        json.dump(dump, f, indent=4)
+# def bake_streamerbot():
+#     with open(OUT_FILE_STREAMERBOT, 'w') as f:
+#         dump = {
+#             'version': 3,
+#             't': '',
+#             'quotes': [],
+#         }
+#         for id, quote in enumerate(QUOTES, start=1):
+#             timestamp = datetime.datetime.now().isoformat()
+#             dump['quotes'].append({
+#                 'timestamp': timestamp,
+#                 'id': id,
+#                 'userId': STREAMERBOT_USER_ID,
+#                 'user': STREAMERBOT_USER_NAME,
+#                 'platform': STREAMERBOT_PLATFORM_NAME,
+#                 'gameId': STREAMERBOT_GAME_ID,
+#                 'gameName': STREAMERBOT_GAME_NAME,
+#                 'quote': TEXT_QUOTE_FORMAT.format(**quote),
+#             })
+#         dump['t'] = timestamp
+#         json.dump(dump, f, indent=4)
 
 
 def bake_text():
