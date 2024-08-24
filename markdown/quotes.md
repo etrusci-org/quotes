@@ -104,6 +104,11 @@
 - If it is art, it is not for all, and if it is for all, it is not art.
 
 
+## Ayn Rand
+
+- We can ignore reality, but we cannot ignore the consequences of ignoring reality.
+
+
 ## Banksy
 
 - Art should comfort the disturbed and disturb the comfortable.
@@ -170,6 +175,7 @@
 
 ## Carl Jung
 
+- If the path before you is clear, you're probably on someone else's.
 - Your vision will become clear only when you look into your own heart. Who looks outside, dreams; who looks inside, awakes.
 
 
@@ -180,6 +186,7 @@
 
 ## Charles Bukowski
 
+- Can you remember who you were, before the world told you who you should be?
 - I tell you such fine music waits in the shadows of hell.
 - Poetry is what happens when nothing else can.
 
@@ -297,6 +304,7 @@
 ## Epictetus
 
 - It is impossible for a man to learn what he thinks he already knows.
+- The key is to keep company only with people who uplift you, whose presence calls forth your best.
 - You become what you give your attention to.
 
 
@@ -339,6 +347,7 @@
 ## Friedrich Nietzsche
 
 - And those who were seen dancing were thought to be insane by those who could not hear the music.
+- He who has the 'why' to live can bear almost any 'how'.
 - We have art in order not to die of the truth.
 - Without music, life would be a mistake.
 - You must have chaos within you to give birth to a dancing star.
@@ -406,6 +415,16 @@
 - Creativity takes courage.
 
 
+## Henry David Thoreau 
+
+- The price of anything is the amount of life you exchange for it.
+
+
+## Henry Miller
+
+- One's destination is never a place, but a new way of seeing things.
+
+
 ## Henry Wadsworth Longfellow
 
 - Music is the universal language of mankind.
@@ -433,6 +452,7 @@
 
 ## James Baldwin
 
+- Though we do not wholly believe it yet, the interior life is a real life, and the intangible dreams of people have a tangible effect on the world.
 - You can't go by nothing but your own convictions. Because if you don't live the way you believe, sooner or later you will believe the way you live.
 - You have to decide who you are and force the world to deal with you, not with its idea of you.
 
@@ -534,6 +554,11 @@
 - Music in the soul can be heard by the universe.
 
 
+## Leo Tolstoy
+
+- Everyone thinks of changing the world, but no one thinks of changing himself.
+
+
 ## Leonard Bernstein
 
 - Music... can name the unnameable and communicate the unknowable.
@@ -572,6 +597,7 @@
 
 ## Marcus Aurelius
 
+- Comfort is the worst addiction.
 - The best revenge is not to be like your enemy.
 
 
@@ -607,7 +633,13 @@
 
 ## Maya Angelou
 
+- Do the best you can until you know better. Then when you know better, do better.
 - Everything in the universe has a rhythm, everything dances.
+
+
+## Meister Eckhart
+
+- If the only prayer you ever say in your entire life is thank you, it will be enough.
 
 
 ## Michael Jackson
@@ -643,6 +675,11 @@
 ## Naguib Mahfouz
 
 - Home is not where you were born; home is where all your attempts to escape cease.
+
+
+## Naval Ravikant
+
+- If you want to make the wrong decision, ask everyone.
 
 
 ## Niccolo Machiavelli
@@ -786,6 +823,11 @@
 ## Seldon Edwards
 
 - He said that the principal function of music was to organize the details into harmonies that were intended to make us forget that there was randomness all around us. The same, he said, could be said for great books.
+
+
+## Seneca
+
+- All cruelty springs from weakness.
 
 
 ## Shannon L. Alder

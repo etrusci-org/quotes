@@ -18,6 +18,7 @@ Apsixaristw
 Aristotle
 Arnold Bennett
 Arnold Schoenberg
+Ayn Rand
 Banksy
 Benjamin Disraeli
 Bill Evans
@@ -76,6 +77,8 @@ Hanif Abdurraqib
 Haruki Murakami
 Heinrich Heine
 Henri Matisse
+Henry David Thoreau 
+Henry Miller
 Henry Wadsworth Longfellow
 Hoda Kotb
 Igor Stravinsky
@@ -101,6 +104,7 @@ Ken Thompson
 Lady Gaga
 Lana Del Rey
 Lao Tzu
+Leo Tolstoy
 Leonard Bernstein
 Leonard Cohen
 Leonardo da Vinci
@@ -116,6 +120,7 @@ Mark E. Smith
 Mark Twain
 Max Heindel
 Maya Angelou
+Meister Eckhart
 Michael Jackson
 Miles Davis
 Mimi Novic
@@ -123,6 +128,7 @@ Mitch Albom
 Morrissey
 Muse
 Naguib Mahfouz
+Naval Ravikant
 Niccolo Machiavelli
 Nick Cave
 Nina LaCour
@@ -151,6 +157,7 @@ Sanober Khan
 Sarah Dessen
 Sarah Williams
 Seldon Edwards
+Seneca
 Shannon L. Alder
 Shinichi Suzuki
 Simon Van Booy
