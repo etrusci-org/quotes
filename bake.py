@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-import datetime
 import json
 import pathlib
 
@@ -20,7 +19,7 @@ OUT_FILE_AUTHORS_JSON = OUT_DIR / 'author' / 'authors.json'
 OUT_FILE_AUTHORS_JSON_MIN = OUT_DIR / 'author' / 'authors.min.json'
 OUT_FILE_AUTHORS_TXT = OUT_DIR / 'author' / 'authors.txt'
 
-TEXT_QUOTE_FORMAT = '"{text}" ― {author}'
+TEXT_QUOTE_FORMAT = '"{text}" - {author}'
 
 
 # -----------------------------------------------------------------------------
