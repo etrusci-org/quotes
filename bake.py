@@ -50,8 +50,8 @@ def main():
 def bake_json():
     print('> bake_json')
     with open(OUT_FILE_JSON, 'w') as f1, open(OUT_FILE_JSON_MIN, 'w') as f2:
-        json.dump(QUOTES, f1, indent=4)
-        json.dump(QUOTES, f2)
+        json.dump(QUOTES, f1, indent=4, ensure_ascii=False)
+        json.dump(QUOTES, f2, ensure_ascii=False)
 
 
 def bake_markdown():
@@ -73,8 +73,8 @@ def bake_authors():
     print('> bake_authors')
     with open(OUT_FILE_AUTHORS_TXT, 'w') as f1, open(OUT_FILE_AUTHORS_JSON, 'w') as f2, open(OUT_FILE_AUTHORS_JSON_MIN, 'w') as f3:
         f1.write('\n'.join(sorted(AUTHORS)))
-        json.dump(AUTHORS, f2, indent=4)
-        json.dump(AUTHORS, f3)
+        json.dump(AUTHORS, f2, indent=4, ensure_ascii=False)
+        json.dump(AUTHORS, f3, ensure_ascii=False)
 
 
 def bake_text():

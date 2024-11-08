@@ -1,6 +1,11 @@
 # Quotes
 
 
+## Catch22
+
+- On old vinyl and shitty 1200's. Just like it was meant.
+
+
 ## @damienxpat on twitter
 
 - Capitalism has us feeling like everything we do in our free time is inherently worthless because it's not tied to productivity.
