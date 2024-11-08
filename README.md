@@ -9,14 +9,13 @@ Curated [words](./markdown/quotes.md) from [people](./author/authors.txt). Mostl
 
 |Type                   | File                                                 | URL                                                            |
 |-----------------------|------------------------------------------------------|----------------------------------------------------------------|
-| Quotes JSON           | [json/quotes.json](./json/quotes.json)               | `https://etrusci-org.github.io/quotes/json/quotes.json`        |
-| Quotes JSON minified  | [json/quotes.min.json](./json/quotes.min.json)       | `https://etrusci-org.github.io/quotes/json/quotes.min.json`    |
-| Quotes Markdown       | [markdown/quotes.md](./markdown/quotes.md)           | `https://etrusci-org.github.io/quotes/markdown/quotes.md`      |
-| Quotes Text           | [text/quotes.txt](./text/quotes.txt)                 | `https://etrusci-org.github.io/quotes/text/quotes.txt`         |
-| Authors JSON          | [author/authors.json](./author/authors.json)         | `https://etrusci-org.github.io/quotes/author/authors.json`     |
-| Authors JSON minified | [author/authors.min.json](./author/authors.min.json) | `https://etrusci-org.github.io/quotes/author/authors.min.json` |
-| Authors Plain Text    | [author/authors.txt](./author/authors.txt)           | `https://etrusci-org.github.io/quotes/author/authors.txt`      |
-<!-- | Quotes Streamer.bot   | [streamerbot/quotes.dat](./streamerbot/quotes.dat)   | `https://etrusci-org.github.io/quotes/streamerbot/quotes.dat`  | -->
+| Quotes JSON           | [json/quotes.json](./json/quotes.json)               | `https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/json/quotes.json`        |
+| Quotes JSON minified  | [json/quotes.min.json](./json/quotes.min.json)       | `https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/json/quotes.min.json`    |
+| Quotes Markdown       | [markdown/quotes.md](./markdown/quotes.md)           | `https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/markdown/quotes.md`      |
+| Quotes Text           | [text/quotes.txt](./text/quotes.txt)                 | `https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/text/quotes.txt`         |
+| Authors JSON          | [author/authors.json](./author/authors.json)         | `https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/author/authors.json`     |
+| Authors JSON minified | [author/authors.min.json](./author/authors.min.json) | `https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/author/authors.min.json` |
+| Authors Plain Text    | [author/authors.txt](./author/authors.txt)           | `https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/author/authors.txt`      |
 
 
 
@@ -41,8 +40,8 @@ Examples:
 
 - `https://etrusci.org/tool/quotes?update_rate=10`
 - `https://etrusci.org/tool/quotes?typing_speed=20`
-- `https://etrusci.org/tool/quotes?src=https://etrusci-org.github.io/quotes/json/quotes.min.json`
-- `https://etrusci.org/tool/quotes?update_rate=10&typing_speed=20&src=https://etrusci-org.github.io/quotes/json/quotes.min.json`
+- `https://etrusci.org/tool/quotes?src=https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/json/quotes.min.json`
+- `https://etrusci.org/tool/quotes?update_rate=10&typing_speed=20&src=https://cdn.jsdelivr.net/gh/etrusci-org/quotes@main/json/quotes.min.json`
 
 
 
