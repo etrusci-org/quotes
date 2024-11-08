@@ -455,6 +455,11 @@
 - If you want to know what a man's like, take a good look at how he treats his inferiors, not his equals.
 
 
+## Jack Kornfield
+
+- If your compassion does not include yourself, it is incomplete.
+
+
 ## James Baldwin
 
 - Though we do not wholly believe it yet, the interior life is a real life, and the intangible dreams of people have a tangible effect on the world.
@@ -776,6 +781,7 @@
 ## Rick Rubin
 
 - Learn to recognize when something is good, even when it's not what you intended it to be.
+- The ability to look deeply is the root of creativity. To see past the ordinary and mundane to get to what might otherwise be invisible.
 
 
 ## Rob Sheffield
