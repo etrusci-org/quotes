@@ -1,11 +1,6 @@
 # Quotes
 
 
-## Catch22
-
-- On old vinyl and shitty 1200's. Just like it was meant.
-
-
 ## @damienxpat on twitter
 
 - Capitalism has us feeling like everything we do in our free time is inherently worthless because it's not tied to productivity.
@@ -16,6 +11,11 @@
 - I won't look back to regret yesterday, we're not handed tomorrow so I'll live for today.
 
 
+## AA Rashid
+
+- I would like to begin by saying to you that everything is not for everybody.
+
+
 ## Aberjhani
 
 - Poetry, like jazz, is one of those dazzling diamonds of creative industry that help human beings make sense out of the comedies and tragedies that contextualize our lives.
@@ -24,6 +24,11 @@
 ## Adele
 
 - I make music for ears, not eyes.
+
+
+## Al-Ghazali
+
+- Do not allow your heart to take pleasure with the praises of people, nor be saddened by their condemnation.
 
 
 ## Albert Camus
@@ -62,6 +67,11 @@
 ## Andre Gide
 
 - It is better to be hated for what you are than to be loved for what you are not.
+
+
+## Angela Davis
+
+- Radical simply means 'grasping things at the root.'
 
 
 ## Ani Difranco
@@ -109,6 +119,16 @@
 - If it is art, it is not for all, and if it is for all, it is not art.
 
 
+## Arthur Schopenhauer
+
+- Mostly it is loss which teaches us about the worth of things.
+
+
+## Auguste Rodin
+
+- Patience is also a form of action.
+
+
 ## Ayn Rand
 
 - We can ignore reality, but we cannot ignore the consequences of ignoring reality.
@@ -122,6 +142,11 @@
 ## Benjamin Disraeli
 
 - Most people die with their music still locked up inside them.
+
+
+## Bhagavad Gita
+
+- Free from all thoughts of 'I' and 'mine', a man finds absolute peace.
 
 
 ## Bill Evans
@@ -158,6 +183,11 @@
 - If we can write or sing or create in some way, even when we are dealing with difficulties or pain, then it becomes something bigger than ourselves - and often beautiful.
 
 
+## Brené Brown
+
+- Integrity is choosing courage over comfort; choosing what is right over what is fun, fast, or easy; and choosing to practice our values rather than simply professing them.
+
+
 ## Brian Tracy
 
 - It doesn't matter where you are coming from. All that matters is where you are going.
@@ -182,6 +212,11 @@
 
 - If the path before you is clear, you're probably on someone else's.
 - Your vision will become clear only when you look into your own heart. Who looks outside, dreams; who looks inside, awakes.
+
+
+## Catch22
+
+- On old vinyl and shitty 1200's. Just like it was meant.
 
 
 ## Charles Baudelaire
@@ -234,6 +269,11 @@
 ## Denzel Washington
 
 - Some people will never like you because your spirit irritates their demons.
+
+
+## Desmund Tutu
+
+- My father used to say: don't raise your voice. Improve your argument.
 
 
 ## Dmitri Shostakovich
@@ -313,6 +353,11 @@
 - You become what you give your attention to.
 
 
+## Erik H. Erikson
+
+- The more you know yourself, the more patience you have for what you see in others.
+
+
 ## Erin Entrada Kelly
 
 - None of it mattered, because there was music.
@@ -352,7 +397,10 @@
 ## Friedrich Nietzsche
 
 - And those who were seen dancing were thought to be insane by those who could not hear the music.
+- Beware that, when fighting monsters, you yourself do not become a monster.
 - He who has the 'why' to live can bear almost any 'how'.
+- I hate who steals my solitude without, in exchange, offering me true company.
+- Not to be absolutely certain is one of the essential things in rationality.
 - We have art in order not to die of the truth.
 - Without music, life would be a mistake.
 - You must have chaos within you to give birth to a dancing star.
@@ -388,6 +436,11 @@
 ## George Gershwin
 
 - Life is a lot like jazz - it's best when you improvise.
+
+
+## George MacDonald
+
+- To be trusted is a greater compliment than being loved.
 
 
 ## Gerard Way
@@ -433,6 +486,11 @@
 ## Henry Wadsworth Longfellow
 
 - Music is the universal language of mankind.
+
+
+## Hippocrates
+
+- Before you heal someone, ask him if he's willing to give up the thing that makes him sick.
 
 
 ## Hoda Kotb
@@ -511,6 +569,16 @@
 ## John Keats
 
 - There is nothing stable in the world, uproar's your only music.
+
+
+## John Maynard Keyes
+
+- When the facts change, I change my mind - what do you do, sir?
+
+
+## John Steinbeck
+
+- And now that you don't have to be perfect, you can be good
 
 
 ## Jonathan Anthony Burkett
@@ -605,6 +673,11 @@
 - Be the change that you wish to see in the world.
 
 
+## Malcolm X
+
+- A man who stands for nothing will fall for anything.
+
+
 ## Marcus Aurelius
 
 - Comfort is the worst addiction.
@@ -687,6 +760,11 @@
 - Home is not where you were born; home is where all your attempts to escape cease.
 
 
+## Napoleon Hill
+
+- It takes half your life before you discover life is a do-it-yourself project.
+
+
 ## Naval Ravikant
 
 - If you want to make the wrong decision, ask everyone.
@@ -720,6 +798,11 @@
 ## Oscar Wilde
 
 - Be yourself, everyone else is already taken.
+
+
+## Ovid
+
+- Dripping water hollows out stone, not through force but through persistence.
 
 
 ## Pablo Picasso
@@ -839,6 +922,7 @@
 ## Seneca
 
 - All cruelty springs from weakness.
+- No good thing is pleasant to possess, without friends to share it.
 
 
 ## Shannon L. Alder
@@ -925,6 +1009,11 @@
 ## Thomas Fuller
 
 - Music is nothing else but wild sounds civilized into time and tune.
+
+
+## Thomas Sankara
+
+- We must choose either champagne for a few or safe drinking water for all.
 
 
 ## Timothy Leary
