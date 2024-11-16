@@ -52,7 +52,6 @@ In case you clone this repo and want to maintain your own quotes:
 
 1. Edit [source.json](./source.json)
 2. `$ python3 bake.py`
-<!-- 2. Optionally adjust `STREAMERBOT_*` constants in [bake.py](./bake.py) -->
 
 
 
