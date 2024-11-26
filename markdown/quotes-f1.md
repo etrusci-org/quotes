@@ -1,18 +1,10 @@
-# Quotes
-
-## Author Uno
-
+**Author Uno**:  
 - Some quote.
 - Another quote.
 
-
-## Gabriel García Márquez
-
+**Gabriel García Márquez**:  
 - Brand new quote.
 
-
-## Author Tre
-
+**Author Tre**:  
 - Very old quote.
 - Last quote.
-

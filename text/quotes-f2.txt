@@ -1,0 +1,5 @@
+"Some quote." - Author Uno
+"Another quote." - Author Uno
+"Brand new quote." - Gabriel García Márquez
+"Very old quote." - Author Tre
+"Last quote." - Author Tre
