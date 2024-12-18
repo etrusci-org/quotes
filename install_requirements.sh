@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-pip install --upgrade --requirement ./requirements.txt
+pip install --no-cache-dir --upgrade --requirement ./requirements.txt
