@@ -1,5 +1,10 @@
 # quotes
 
+! THE QUOTES LIST WAS MIGRATED TO THE POLYDATAVAULT: <https://pdv.ourspace.ch>
+! THIS REPOSITORY WILL BE SOON ARCHIVED.
+
+---
+
 Curated [words](./markdown/quotes.md) from [people](./author/authors.txt). Mostly about art and life.
 
 
